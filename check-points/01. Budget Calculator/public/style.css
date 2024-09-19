@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins';
+   font-size: 1.04rem;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   background-color: #1f1f1f;
+   color: #EED49F;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+.container {
+   border: 3px solid #E83C3C;
+   border-radius: 10px;
+   width: 700px;
+   height: 700px;
+}
+
+.container h3 {
+   margin-top: 20px;
+   text-align: center;
+   font-size: 1.5rem;
+}
+
+form {
+   margin: 20px 50px;
+   width: 80%;
+}
+
+
+form hr {
+   margin: 20px;
+   height: 3px;
+   border-radius: 10px;
+   background-color: #E83C3C;
+   color: #E83C3C;
+}
+
+.form-group {
+   margin: 10px;
+   display: flex;
+   flex-direction: column;
+}
+
+.form-group input {
+   background-color: #1f1f1f;
+   border: 1.5px solid #E83C3C;
+
+   padding: 5px;
+   font-size: 1rem;
+   border-radius: 5px;
+   color: #EED49F;
+}
+
+form #btn {
+   border: 1.5px solid #E83C3C;
+   border-radius: 5px;
+   background-color: #1f1f1f;
+   color: #E83C3C;
+   padding: 10px 20px;
+   font-weight: 600;
+   margin: 0 20px;
+   cursor: pointer;
+}
+
+form #btn:hover {
+   border: 1.5px solid #E83C3C;
+   background-color: #1f1f1f;
+   color: #EED49F;
+   transition: all 0.3s;
+}
+
+
+
+/* ! Total */
+.total-container {
+   display: flex;
+   align-items: center;
+}
+
+.total-form-group {
+   margin: 10px;
+}
+
+.total-form-group input {
+   background-color: #1f1f1f;
+   border: 1.5px solid #E83C3C;
+   padding: 5px;
+   width: 363px;
+   font-size: 1rem;
+   border-radius: 5px;
+   color: #EED49F;
+   display: block;
+}
+
+
+
+/* !Pure Input Styling */
+input:focus {
+   outline: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}
+
+
+input[type="number"] {
+   appearance: textfield;
+}
